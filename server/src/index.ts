@@ -19,6 +19,7 @@ declare module 'express-session' {
 const prisma = new PrismaClient();
 
 const main = async () => {
+  // this is express
   const app = express();
 
   let RedisStore = connectRedis(session);
